@@ -10,16 +10,16 @@
         <div class="draghint hidden screen" id="draghint">
             <input type="file" id="chooser" class="chooser"/>
             <div class="dragtext">
-                <h1>drag a game here to play</h1>
+                <h1>Drag a game here to play.</h1>
             </div>
         </div>
-        <div id="loading" class="message screen"><h1>loading ...</h1></div>
+        <div id="loading" class="message screen"><h1>Loading ...</h1></div>
         <div id="error" class="message hidden screen">
             <h1>error!</h1>
             <div id="clear-save" class="hidden">
                 <p>This could be caused by a corrupted save file. This button
-                    will allow you to reset your save. Sadly you will not be able to
-                    recover it.</p>
+                will allow you to reset your save. Sadly you will not be able to
+                recover it.</p>
                 <button onclick="removeSave(); reset()">Delete save for this game</button>
             </div>
         </div>
@@ -28,12 +28,12 @@
             <input type="file" id="savechooser" class="chooser"/>
             <div class="options">
                 <h1>Your game is paused.</h1>
-                <button onclick="resume()">resume</button>
-                <button onclick="reset()">reset</button>
-                <button onclick="save()">save game</button>
-                <button onclick="load()">load save</button>
-                <button onclick="removeSave(); reset()">delete save</button>
-                <button id="mute" onclick="mute()">mute</button>
+                <button onclick="resume()">Resume</button>
+                <button onclick="reset()">Reset</button>
+                <button onclick="save()">Save Game</button>
+                <button onclick="load()">Load Save</button>
+                <button onclick="removeSave(); reset()">Delete Save</button>
+                <button id="mute" onclick="mute()">Mute</button>
             </div>
             <div>
                 <h1>Controls:</h1>
@@ -54,7 +54,6 @@
         </div>
         <script src="jspm_packages/system.js"></script>
         <script src="config.js"></script>
-        <script src="build.js"></script>
         <script>System.import('./index.coffee!')</script>
     </body>
 </html>
