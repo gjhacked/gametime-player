@@ -8,6 +8,7 @@ html, body, canvas {
   -moz-user-select: none;
   user-select: none;
   overflow: hidden;
+  font-family: "Montserrat";
 }
 .draghint {
   display: table;
